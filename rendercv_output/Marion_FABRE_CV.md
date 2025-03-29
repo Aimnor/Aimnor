@@ -1,4 +1,4 @@
-# Marion FABRE's CV
+# Marion FABRE
 
 - Email: [m.fabre123@gmail.com](mailto:m.fabre123@gmail.com)
 - Location: Paris, France
@@ -8,7 +8,8 @@
 
 # Experience
 
-## Quandela, QA Software Engineer
+## <img src="https://www.google.com/s2/favicons?domain=https://www.quandela.com/" alt="Quandela" height="20"/> [Quandela](https://www.quandela.com/), QA Software Engineer
+ 
 
 - Sept 2024 – present
 - Massy (91), FRANCE
@@ -16,7 +17,7 @@
 	- Self-training in Quality Assurance (QA) practices 
 	- Gathering internal QA needs 
 	- Benchmarking testing frameworks
-- Development and maintenance of a test driver and test portfolio for Quandela's Cloud platform (outsourced project): 
+- Development and maintenance of a test driver and test portfolio for [Quandela's Cloud Solution](https://cloud.quandela.com/) (outsourced project): 
 	- Developing a test driver with Cucumber framework (Behave - Python), GUI and REST API testing (Selenium, Requests...) 
 	- Creating a test portfolio by writing test scenarios using Gherkin syntax 
 	- Deployment of release candidate app version to test (docker) 
@@ -25,7 +26,8 @@
 	- Involvement in specification process 
 	- Overseeing subcontractors work
 
-## Quandela, Software Scientific Engineer
+## <img src="https://www.google.com/s2/favicons?domain=https://www.quandela.com/" alt="Quandela" height="20"/> [Quandela](https://www.quandela.com/), Software Scientific Engineer
+ 
 
 - June 2023 – Jan 2025
 - Massy (91), FRANCE
@@ -37,7 +39,8 @@
 	- Implementation of Unit tests and CI/CD pipeline 
 	- Documentation
 
-## NanoXplore, Software Scientific Engineer
+## <img src="https://www.google.com/s2/favicons?domain=https://nanoxplore.com/" alt="NanoXplore" height="20"/> [NanoXplore](https://nanoxplore.com/), Software Scientific Engineer
+ 
 
 - Feb 2021 – Apr 2023
 - Sèvres (92), FRANCE
@@ -52,7 +55,8 @@
 	- Use of scientific libraries (scipy, sklearn, multiprocessing, pandas) for multi-thread data production with quadratic regression and clustering. Data visualisation (seaborn, matplolib). 
 	- Responsible for unifying python coding rules and practices within the company.
 
-## Cala, Embedded Software Engineer
+## <img src="https://www.google.com/s2/favicons?domain=https://www.eatcala.com/" alt="Cala" height="20"/> [Cala](https://www.eatcala.com/), Embedded Software Engineer
+ 
 
 - Jan 2020 – Dec 2020
 - Courbevoie (92), FRANCE
@@ -64,7 +68,8 @@
 	- Request to remote server (Python <-> graphQl) 
 	- Tests, Repeatability, Documentation
 
-## SNCF Réseaux, Embedded Software Engineer
+## <img src="https://www.google.com/s2/favicons?domain=https://www.sncf-reseau.com" alt="SNCF Réseaux" height="20"/> [SNCF Réseaux](https://www.sncf-reseau.com), Embedded Software Engineer
+ 
 
 - Sept 2016 – Dec 2019
 - Saint-Denis (93), FRANCE
@@ -74,7 +79,8 @@
 	- Tests, production launch, maintenance, improvement and documentation of measurement chains. 
 	- Data analysis (repeatability) and development of data consultation softwares.
 
-## Valeo, Embedded Software Engineer Intern
+## <img src="https://www.google.com/s2/favicons?domain=https://www.valeo.com" alt="Valeo" height="20"/> [Valeo](https://www.valeo.com), Embedded Software Engineer Intern
+ 
 
 - Feb 2016 – Aug 2016
 - Créteil (94), FRANCE
@@ -85,13 +91,15 @@
 
 # Education
 
-## ENSEA, MEng in Computer Science and Electronics
+## <img src="https://www.google.com/s2/favicons?domain=https://www.ensea.fr/" alt="ENSEA" height="20"/> [ENSEA](https://www.ensea.fr/), MEng in Computer Science and Electronics
+ 
 
 - Sept 2012 – Aug 2016
 - Cergy (95), France
-- **Coursework:** Embedded systems, C++, Algorithmic and programming, Game theory and telecommunication, Electrical power: Production and distribution
+- Courses: Embedded systems, C++, Algorithmic and programming, Game theory and telecommunication
 
 ## Lycée Jean-Perrin, Mechanic
+ 
 
 - Sept 2010 – June 2012
 - Marseille (13), France

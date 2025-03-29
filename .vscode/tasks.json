@@ -6,7 +6,7 @@
         {
             "label": "build resume",
             "type": "shell",
-            "command": "source venv/bin/activate.fish && rendercv render \"Marion_FABRE_CV.yaml\"",
+            "command": "source venv/bin/activate.fish && rendercv render \"Marion_FABRE_CV.yaml\" -nohtml -nopng && python temp_fix_md.py",
             "group": {
                 "kind": "build",
                 "isDefault": true

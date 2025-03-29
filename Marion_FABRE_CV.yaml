@@ -24,7 +24,7 @@ cv:
             \\item Gathering internal QA needs
             \\item Benchmarking testing frameworks
             \\end{itemize}"
-          - "Development and maintenance of a test driver and test portfolio for Quandela's Cloud platform (outsourced project):
+          - "Development and maintenance of a test driver and test portfolio for [Quandela's Cloud Solution](https://cloud.quandela.com/) (outsourced project):
             \\begin{itemize}
             \\item Developing a test driver with Cucumber framework (Behave - Python), GUI and REST API testing (Selenium, Requests...)
             \\item Creating a test portfolio by writing test scenarios using Gherkin syntax
@@ -128,7 +128,7 @@ cv:
         start_date: 2012-09
         end_date: 2016-08
         highlights:
-          - "**Coursework:** Embedded systems, C++, Algorithmic and programming, Game theory and telecommunication, Electrical power: Production and distribution"
+          - "Courses: Embedded systems, C++, Algorithmic and programming, Game theory and telecommunication"
       - institution: Lycée Jean-Perrin
         location: Marseille (13), France
         area: Mechanic
