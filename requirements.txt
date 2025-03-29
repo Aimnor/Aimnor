@@ -1,1 +1,3 @@
 rendercv[full]==1.18
+pyyaml
+drawsvg
