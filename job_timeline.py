@@ -33,11 +33,13 @@ class Experience(Position):
     location: str
     start_date: datetime
     end_date: datetime
+    keywords: list[str]
 
     def __init__(self, experience_dict: dict[float]):
         for key, value in experience_dict.items():
             setattr(self, key, value)
         self._parse_dates()
+        self.keywords = self.keywords.split(', ')
 
 
 @dataclass
@@ -64,34 +66,91 @@ class Timeline():
             self.educations = [Education(education) for education in my_yaml['cv']['sections']['education']]
             self.experiences = [Experience(experience) for experience in my_yaml['cv']['sections']['experience']]
 
+    def set_companies(self):
+        self.companies = {}
+        self.min_date = NOW
+        self.max_date = NOW
+        for experience in self.experiences:
+            if experience.start_date < self.min_date:
+                self.min_date = experience.start_date
+            if experience.company in self.companies:
+                if experience.start_date < self.companies[experience.company][0]:
+                    self.companies[experience.company][0] = experience.start_date
+                if experience.end_date > self.companies[experience.company][1]:
+                    self.companies[experience.company][1] = experience.end_date
+            else:
+                self.companies[experience.company] = [experience.start_date, experience.end_date]
+
     def draw_experiences(self):
-        d = draw.Drawing(800, 400)
+        self.set_companies()
+        WIDTH = 1200
+        WM = 10
+        BOX_HEIGHT = 50
+        HM = 10
+        HEIGHT = BOX_HEIGHT * 5 + HM * 6
 
-        # Définir les dimensions de la frise (date de début et date de fin)
-        dates = [date for experience in self.experiences for date in [experience.start_date, experience.end_date]]
-        min_date = min(dates)
-        max_date = max(dates)
+        FONT_SIZE = 10
+        LIGHT_GREEN = "#a9d6e5"
+        GREEN = "#468faf"
+        DARK_GREEN = "#012a4a"
 
-        # Calcul de l'échelle des dates pour les adapter à l'espace horizontal
+        d = draw.Drawing(WIDTH, HEIGHT)
+
         def position_x(date):
-            return 50 + (date - min_date).days / (max_date - min_date).days * 700
+            return WM + (date - self.min_date).days / (self.max_date - self.min_date).days * (WIDTH-2*WM)
 
-        # Parcourir les postes et ajouter les rectangles
+        for company, dates in self.companies.items():
+            start_x = position_x(dates[0])
+            end_x = position_x(dates[1])
+
+            y = BOX_HEIGHT + HM
+            d.append(draw.Rectangle(start_x, y, end_x - start_x,
+                     3*BOX_HEIGHT + 3*HM, fill=LIGHT_GREEN, rx='10', ry='10'))
+
+            d.append(draw.Text(f'{company}', FONT_SIZE,
+                     x=(end_x + start_x)/2, y=y+(BOX_HEIGHT)/2,
+                     fill=DARK_GREEN, center=True))
+
         for i, experience in enumerate(self.experiences):
-
-            # Calcul des positions des rectangles
             start_x = position_x(experience.start_date)
             end_x = position_x(experience.end_date)
 
-            # Ajouter le rectangle pour chaque poste
-            d.append(draw.Rectangle(start_x, 80 + i * 50, end_x - start_x, 30, fill="lightblue", stroke="black"))
+            position_y = 2*BOX_HEIGHT + 2*HM
+            keywords_y = 3*BOX_HEIGHT + 3*HM
+            if i % 2 == 1:
+                temp = keywords_y
+                keywords_y = position_y
+                position_y = temp
 
-            # Ajouter le texte pour le nom de l'entreprise et les dates
-            d.append(draw.Text(f'{experience.company} ({experience.get_timespan()})',
-                     10, start_x + 5, 80 + i * 50 + 15, fill="black"))
+            width = end_x - start_x
+
+            d.append(draw.Rectangle(start_x + WM, position_y, width - 2*WM,
+                     BOX_HEIGHT, fill=GREEN, rx='10', ry='10'))
+
+            position_text = experience.position
+            keyword_text = ", ".join(experience.keywords)
+            text_size = len(position_text)
+            if text_size*5 > width:
+                position_text = position_text.replace(" ", "\n")
+                keyword_text = ('\n').join(experience.keywords)
+
+            d.append(draw.Text(f'{position_text}', FONT_SIZE,
+                     x=(end_x + start_x)/2, y=position_y+(BOX_HEIGHT)/2,
+                     fill=DARK_GREEN, center=True))
+
+            d.append(draw.Text(f'{keyword_text}', FONT_SIZE,
+                     x=(end_x + start_x)/2, y=keywords_y+(BOX_HEIGHT)/2,
+                     fill=DARK_GREEN, center=True))
+
+        d.append(draw.Line(
+            WM,
+            3*BOX_HEIGHT + 5/2*HM,
+            WIDTH - WM,
+            3*BOX_HEIGHT + 5/2*HM,
+            stroke=DARK_GREEN))
 
         # Afficher la frise SVG
-        d.save_svg("frise_chronologique.svg")
+        d.save_svg("rendercv_output/frise_chronologique.svg")
 
 
 if __name__ == "__main__":

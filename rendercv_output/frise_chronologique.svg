@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="310" viewBox="0 0 1200 310">
+<defs>
+</defs>
+<rect x="962.6115802171291" y="60" width="227.38841978287087" height="180" fill="#a9d6e5" rx="10" ry="10" />
+<text x="1076.3057901085645" y="85.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">Quandela</text>
+<rect x="660.1387213510253" y="60" width="280.76598311218333" height="180" fill="#a9d6e5" rx="10" ry="10" />
+<text x="800.521712907117" y="85.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">NanoXplore</text>
+<rect x="518.8661037394452" y="60" width="119.20989143546433" height="180" fill="#a9d6e5" rx="10" ry="10" />
+<text x="578.4710494571773" y="85.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">Cala</text>
+<rect x="85.79613992762364" y="60" width="422.0386007237636" height="180" fill="#a9d6e5" rx="10" ry="10" />
+<text x="296.81544028950543" y="85.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">SNCF Réseaux</text>
+<rect x="10.0" y="60" width="64.76477683956574" height="180" fill="#a9d6e5" rx="10" ry="10" />
+<text x="42.38238841978287" y="85.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">Valeo</text>
+<rect x="1135.5910735826296" y="120" width="44.40892641737037" height="50" fill="#468faf" rx="10" ry="10" />
+<text x="1157.7955367913148" y="145.0" font-size="10" fill="#012a4a" text-anchor="middle"><tspan x="1157.7955367913148" dy="-0.5em">QA</tspan><tspan x="1157.7955367913148" dy="1em">Software</tspan><tspan x="1157.7955367913148" dy="1em">Engineer</tspan></text>
+<text x="1157.7955367913148" y="205.0" font-size="10" fill="#012a4a" text-anchor="middle"><tspan x="1157.7955367913148" dy="-1.5em">QA</tspan><tspan x="1157.7955367913148" dy="1em">Python</tspan><tspan x="1157.7955367913148" dy="1em">Linux</tspan><tspan x="1157.7955367913148" dy="1em">REST API</tspan><tspan x="1157.7955367913148" dy="1em">Docker</tspan></text>
+<rect x="972.6115802171291" y="180" width="186.39324487334125" height="50" fill="#468faf" rx="10" ry="10" />
+<text x="1065.8082026537998" y="205.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">Software Scientific Engineer</text>
+<text x="1065.8082026537998" y="145.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">Python, C++, Maths, Multi OS</text>
+<rect x="670.1387213510253" y="120" width="260.76598311218333" height="50" fill="#468faf" rx="10" ry="10" />
+<text x="800.521712907117" y="145.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">Software Scientific Engineer</text>
+<text x="800.521712907117" y="205.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">Python, C++, Maths, Linux</text>
+<rect x="528.8661037394452" y="180" width="99.20989143546433" height="50" fill="#468faf" rx="10" ry="10" />
+<text x="578.4710494571773" y="205.0" font-size="10" fill="#012a4a" text-anchor="middle"><tspan x="578.4710494571773" dy="-0.5em">Embedded</tspan><tspan x="578.4710494571773" dy="1em">Software</tspan><tspan x="578.4710494571773" dy="1em">Engineer</tspan></text>
+<text x="578.4710494571773" y="145.0" font-size="10" fill="#012a4a" text-anchor="middle"><tspan x="578.4710494571773" dy="-0.5em">Python</tspan><tspan x="578.4710494571773" dy="1em">C++</tspan><tspan x="578.4710494571773" dy="1em">Linux</tspan></text>
+<rect x="95.79613992762364" y="120" width="402.0386007237636" height="50" fill="#468faf" rx="10" ry="10" />
+<text x="296.81544028950543" y="145.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">Embedded Software Engineer</text>
+<text x="296.81544028950543" y="205.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">C#, Maths, Windows</text>
+<rect x="20.0" y="180" width="44.76477683956574" height="50" fill="#468faf" rx="10" ry="10" />
+<text x="42.38238841978287" y="205.0" font-size="10" fill="#012a4a" text-anchor="middle"><tspan x="42.38238841978287" dy="-1.0em">Embedded</tspan><tspan x="42.38238841978287" dy="1em">Software</tspan><tspan x="42.38238841978287" dy="1em">Engineer</tspan><tspan x="42.38238841978287" dy="1em">Intern</tspan></text>
+<text x="42.38238841978287" y="145.0" font-size="10" fill="#012a4a" text-anchor="middle" dominant-baseline="central">C#</text>
+<path d="M10,175.0 L1190,175.0" stroke="#012a4a" />
+</svg>

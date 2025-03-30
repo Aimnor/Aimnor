@@ -17,6 +17,7 @@ cv:
         location: Massy (91), FRANCE
         start_date: 2024-09
         end_date: present
+        keywords: QA, Python, Linux, REST API, Docker
         highlights:
           - "Creation of the QA position and department within Quandela:
             \\begin{itemize}
@@ -41,6 +42,7 @@ cv:
         location: Massy (91), FRANCE
         start_date: 2023-06
         end_date: 2025-01
+        keywords: Python, C++, Maths, Multi OS
         highlights:
           - "Development of [Perceval](https://github.com/Quandela/Perceval), a Python framework simulating quantum photonic circuits and its core library Exqalibur (C++):
             \\begin{itemize}
@@ -58,6 +60,7 @@ cv:
         location: Sèvres (92), FRANCE
         start_date: 2021-02
         end_date: 2023-04
+        keywords: Python, C++, Maths, Linux
         highlights:
           - "Development of a software suite for FPGA (Linux, C++, Python):
             \\begin{itemize}
@@ -80,6 +83,7 @@ cv:
         location: Courbevoie (92), FRANCE
         start_date: 2020-01
         end_date: 2020-12
+        keywords: Python, C++, Linux
         highlights:
           - "Embedded software development and deployment for [a cooking automaton](https://www.youtube.com/watch?v=jrqp0gy6KXE) (Linux, Python, C++, C):
             \\begin{itemize}
@@ -97,6 +101,7 @@ cv:
         location: Saint-Denis (93), FRANCE
         start_date: 2016-09
         end_date: 2019-12
+        keywords: C#, Maths, Windows
         highlights:
           - "Development of new measurement chains for the [IRIS320 train](https://fr.wikipedia.org/wiki/TGV_IRIS_320):
             \\begin{itemize}
@@ -112,6 +117,7 @@ cv:
         location: Créteil (94), FRANCE
         start_date: 2016-02
         end_date: 2016-08
+        keywords: C#
         highlights:
           - "Creation of a bench prototype to update laboratory test equipments:
             \\begin{itemize}
