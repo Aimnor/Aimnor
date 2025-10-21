@@ -2,8 +2,7 @@
 
 My name is Marion, I'm a senior scientific software engineer.
 
-- 🔭 I’m currently working at [Quandela](https://github.com/Quandela)
-- 🌱 I’m currently learning software QA
+- 🔭 I’m currently looking for new opportunities
 - 👯 I’m looking to collaborate on fun or ethical projects
 - 💬 Ask me about anything
 - 📫 How to reach me: [m.fabre123@gmail.com](mailto:m.fabre123@gmail.com)
