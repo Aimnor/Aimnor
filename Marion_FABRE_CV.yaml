@@ -9,7 +9,7 @@ cv:
     - network: GitHub
       username: Aimnor
   sections:
-    experience:
+    experiences:
       - company: Quandela
         website: https://www.quandela.com/
         position: QA Software Engineer
@@ -64,7 +64,7 @@ cv:
             - Use of scientific libraries (scipy, sklearn, multiprocessing, pandas) for multi-thread data production with quadratic regression and clustering. Data visualisation (seaborn, matplolib).
             - Responsible for unifying python coding rules and practices within the company.
       - company: Cala
-        website: https://www.eatcala.com/
+        website: https://www.linkedin.com/company/calaeat
         position: Embedded Software Engineer
         contract_type: CDI
         location: Courbevoie (92), FRANCE
@@ -117,6 +117,7 @@ cv:
           - Algorithmic and programming
           - Game theory and telecommunication"
       - institution: Lycée Jean-Perrin
+        website: https://www.site.ac-aix-marseille.fr/lyc-perrin/
         location: Marseille (13), France
         area: Mechanic
         start_date: 2010-09
@@ -138,11 +139,11 @@ cv:
         details: Raspberry Pi, Arduino ...
     Software tools:
       - bullet: Office pack
-      - bullet: IDE (VS/VSCode, PiCharm)
-      - bullet: CAO / 3D printing
-      - bullet: Computer aided drawing tools (Photoshop, Gimp …)
+      - bullet: IDE (VS/VSCode, PyCharm)
+      - bullet: CAO / 3D printing (Autodesk fusion, Bambu Studio)
+      - bullet: Formal calculus (Matlab/Simulink, WolframAlpha, …)
       - bullet: PCB routing (OrCAD, Eagle, Pspice)
-      - bullet: Formal calculus (Maple, Matlab/Simulink, Mathematica)
+      - bullet: Computer aided drawing tools (Photoshop, Gimp …)
     Languages:
       - label: French
         details: native
@@ -154,13 +155,32 @@ cv:
       - bullet: "2019 - today: Science career advocate in high schools (especially for girls)"
       - bullet: "2022 - today: Volunteer staff for a [craft beer festival](https://parisbeerfestival.fr/fr/)"
     Interests:
-      - Home automation
-      - Sciences
-      - Zythology
-      - Travel
-      - Video Games
-      - Handiwork
+      - Home automation, Handiwork, 3D printing, Crafting, Travel, Zythology, Video Games
+
 design:
   theme: engineeringclassic
   colors:
     headline: "#004f90"
+  links:
+    underline: true
+    show_external_link_icon: true
+  templates:
+    experience_entry:
+      main_column: |-
+        **POSITION**, [COMPANY](WEBSITE) - LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        DATE
+    education_entry:
+      main_column: |-
+        [**INSTITUTION**](WEBSITE), AREA
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: |-
+        **DEGREE**
+      date_and_location_column: |-
+        LOCATION
+        DATE
+locale:
+  language: english

@@ -6,9 +6,9 @@
 - GitHub: [Aimnor](https://github.com/Aimnor)
 
 
-# Experience
+# Experiences
 
-## **QA Software Engineer**, Quandela -- Massy (91), FRANCE
+## **QA Software Engineer**, [Quandela](https:\/\/www.quandela.com\/) - Massy (91), FRANCE
 
 Sept 2024 – June 2025
 
@@ -32,7 +32,7 @@ Sept 2024 – June 2025
 
   - Generating test reports using Allure Reporting Tool
 
-  - Writing test reports / Managing Jira tickets
+  - Writing test reports \/ Managing Jira tickets
 
   - Involvement in specification process
 
@@ -40,7 +40,7 @@ Sept 2024 – June 2025
 
 
 
-## **Software Scientific Engineer**, Quandela -- Massy (91), FRANCE
+## **Software Scientific Engineer**, [Quandela](https:\/\/www.quandela.com\/) - Massy (91), FRANCE
 
 June 2023 – Jan 2025
 
@@ -50,17 +50,17 @@ June 2023 – Jan 2025
 
   - Designing framework architecture
 
-  - Identification of the Theory / App Engineers departments needs and gathering knowledge from them
+  - Identification of the Theory \/ App Engineers departments needs and gathering knowledge from them
 
-  - Implementing new features (Python / C++)
+  - Implementing new features (Python \/ C++)
 
-  - Implementation of Unit tests and CI/CD pipeline
+  - Implementation of Unit tests and CI\/CD pipeline
 
   - Documentation
 
 
 
-## **Software Scientific Engineer**, NanoXplore -- Sèvres (92), FRANCE
+## **Software Scientific Engineer**, [NanoXplore](https:\/\/nanoxplore.com\/) - Sèvres (92), FRANCE
 
 Feb 2021 – Apr 2023
 
@@ -86,27 +86,27 @@ Feb 2021 – Apr 2023
 
 
 
-## **Embedded Software Engineer**, Cala -- Courbevoie (92), FRANCE
+## **Embedded Software Engineer**, [Cala](https:\/\/www.linkedin.com\/company\/calaeat) - Courbevoie (92), FRANCE
 
 Jan 2020 – Dec 2020
 
 - Embedded software development and deployment for [a cooking automaton](https://www.youtube.com/watch?v=jrqp0gy6KXE) (Linux, Python, C++, C)
 
-  - Designing and implementing an algorithm to parallelize the automaton's tasks regarding available resources (Python / C)
+  - Designing and implementing an algorithm to parallelize the automaton's tasks regarding available resources (Python \/ C)
 
   - Development  of the robot arm library (C++ wrap in Python)
 
-  - Communication with microprocessors (CAN bus, Python / C)
+  - Communication with microprocessors (CAN bus, Python \/ C)
 
   - Creation of a REST API with automaton's control endpoint (Python)
 
-  - Request to remote server (Python <-> graphQl)
+  - Request to remote server (Python \<-\> graphQl)
 
   - Tests, Repeatability, Documentation
 
 
 
-## **Embedded Software Engineer**, SNCF Réseaux -- Saint-Denis (93), FRANCE
+## **Embedded Software Engineer**, [SNCF Réseaux](https:\/\/www.sncf-reseau.com) - Saint-Denis (93), FRANCE
 
 Sept 2016 – Dec 2019
 
@@ -114,7 +114,7 @@ Sept 2016 – Dec 2019
 
   - Identification of maintenance needs, writing specifications.
 
-  - Full development of measurement chains, both hardware (sensors and acquisition cards choice, analog filters, signal conditionnement) and software (C#) (signal acquisition, numerical filters, image processing, algorithm, database insertion).
+  - Full development of measurement chains, both hardware (sensors and acquisition cards choice, analog filters, signal conditionnement) and software (C\#) (signal acquisition, numerical filters, image processing, algorithm, database insertion).
 
   - Tests, production launch, maintenance, improvement and documentation of measurement chains.
 
@@ -122,7 +122,7 @@ Sept 2016 – Dec 2019
 
 
 
-## **Embedded Software Engineer Intern**, Valeo -- Créteil (94), FRANCE
+## **Embedded Software Engineer Intern**, [Valeo](https:\/\/www.valeo.com) - Créteil (94), FRANCE
 
 Feb 2016 – Aug 2016
 
@@ -130,7 +130,7 @@ Feb 2016 – Aug 2016
 
   - Identification of needs, technology benchmark
 
-  - Creation of a bench prototype (Raspberry Pi 3, PCB conception, scripting in python/C and HMI in C#)
+  - Creation of a bench prototype (Raspberry Pi 3, PCB conception, scripting in python\/C and HMI in C\#)
 
   - Writing of documentation and financial report
 
@@ -138,7 +138,13 @@ Feb 2016 – Aug 2016
 
 # Education
 
-## **ENSEA**, MEng in Computer Science and Electronics -- Cergy (95), FranceSept 2012 – Aug 2016
+## [**ENSEA**](https:\/\/www.ensea.fr\/), Computer Science and Electronics
+
+**MEng**
+
+Cergy (95), France
+
+Sept 2012 – Aug 2016
 
 - Embedded systems
 
@@ -146,11 +152,17 @@ Feb 2016 – Aug 2016
 
 - Algorithmic and programming
 
-- Game theory and telecommunication"
+- Game theory and telecommunication\"
 
 
 
-## **Lycée Jean-Perrin**,  in Mechanic -- Marseille (13), FranceSept 2010 – June 2012
+## [**Lycée Jean-Perrin**](https:\/\/www.site.ac-aix-marseille.fr\/lyc-perrin\/), Mechanic
+
+
+
+Marseille (13), France
+
+Sept 2010 – June 2012
 
 - University-level preparation for the nation-wide competitive entrance exams to the French “Grandes Écoles”
 
@@ -158,15 +170,15 @@ Feb 2016 – Aug 2016
 
 # Programming Skills
 
-- Programming Languages: Python, C++, C, C#
+- Programming Languages: Python, C++, C, C\#
 
 - OS: Linux, Windows, MacOS
 
 - Git: Github, Gitlab
 
-- Tests: Unit test, CI/CD Pipeline, Pytest, Unitest, Cucumber, Gherkin
+- Tests: Unit test, CI\/CD Pipeline, Pytest, Unitest, Cucumber, Gherkin
 
-- Programming concepts: Design pattern, Parallelization, Image processing (OpenCV, MIL), OCR, ASR (Optical / Speech recognition)
+- Programming concepts: Design pattern, Parallelization, Image processing (OpenCV, MIL), OCR, ASR (Optical \/ Speech recognition)
 
 - Development board: Raspberry Pi, Arduino ...
 
@@ -174,15 +186,15 @@ Feb 2016 – Aug 2016
 
 - Office pack
 
-- IDE (VS/VSCode, PiCharm)
+- IDE (VS\/VSCode, PyCharm)
 
-- CAO / 3D printing
+- CAO \/ 3D printing (Autodesk fusion, Bambu Studio)
 
-- Computer aided drawing tools (Photoshop, Gimp …)
+- Formal calculus (Matlab\/Simulink, WolframAlpha, …)
 
 - PCB routing (OrCAD, Eagle, Pspice)
 
-- Formal calculus (Maple, Matlab/Simulink, Mathematica)
+- Computer aided drawing tools (Photoshop, Gimp …)
 
 # Languages
 
@@ -200,14 +212,4 @@ Feb 2016 – Aug 2016
 
 # Interests
 
-Home automation
-
-Sciences
-
-Zythology
-
-Travel
-
-Video Games
-
-Handiwork
+Home automation, Handiwork, 3D printing, Crafting, Travel, Zythology, Video Games
