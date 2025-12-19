@@ -5,7 +5,7 @@ cv:
   nationality: french
   social_networks:
     - network: LinkedIn
-      username: marion-fabre-87521988
+      username: info-marion-fabre
     - network: GitHub
       username: Aimnor
   sections:
@@ -18,22 +18,18 @@ cv:
         start_date: 2024-09
         end_date: 2025-06
         highlights:
-          - "Creation of the QA position and department within Quandela:
-            \\begin{itemize}
-            \\item Self-training in Quality Assurance (QA) practices
-            \\item Gathering internal QA needs
-            \\item Benchmarking testing frameworks
-            \\end{itemize}"
-          - "Development and maintenance of a test driver and test portfolio for [Quandela's Cloud Solution](https://cloud.quandela.com/) (outsourced project):
-            \\begin{itemize}
-            \\item Developing a test driver with Cucumber framework (Behave - Python), GUI and REST API testing (Selenium, Requests...)
-            \\item Creating a test portfolio by writing test scenarios using Gherkin syntax
-            \\item Deployment of release candidate app version to test (docker)
-            \\item Generating test reports using Allure Reporting Tool
-            \\item Writing test reports / Managing Jira tickets
-            \\item Involvement in specification process
-            \\item Overseeing subcontractors work
-            \\end{itemize}"
+          - Creation of the QA position and department within Quandela
+            - Self-training in Quality Assurance (QA) practices
+            - Gathering internal QA needs
+            - Benchmarking testing frameworks
+          - Development and maintenance of a test driver and test portfolio for [Quandela's Cloud Solution](https://cloud.quandela.com/) (outsourced project)
+            - Developing a test driver with Cucumber framework (Behave - Python), GUI and REST API testing (Selenium, Requests...)
+            - Creating a test portfolio by writing test scenarios using Gherkin syntax
+            - Deployment of release candidate app version to test (docker)
+            - Generating test reports using Allure Reporting Tool
+            - Writing test reports / Managing Jira tickets
+            - Involvement in specification process
+            - Overseeing subcontractors work
       - company: Quandela
         website: https://www.quandela.com/
         position: Software Scientific Engineer
@@ -42,15 +38,13 @@ cv:
         start_date: 2023-06
         end_date: 2025-01
         highlights:
-          - "Development of [Perceval](https://github.com/Quandela/Perceval), a Python framework simulating quantum photonic circuits and its core library Exqalibur (C++):
-            \\begin{itemize}
-            \\item Agile method
-            \\item Designing framework architecture
-            \\item Identification of the Theory / App Engineers departments needs and gathering knowledge from them
-            \\item Implementing new features (Python / C++)
-            \\item Implementation of Unit tests and CI/CD pipeline
-            \\item Documentation
-            \\end{itemize}"
+          - Development of [Perceval](https://github.com/Quandela/Perceval), a Python framework simulating quantum photonic circuits and its core library Exqalibur (C++)
+            - Agile method
+            - Designing framework architecture
+            - Identification of the Theory / App Engineers departments needs and gathering knowledge from them
+            - Implementing new features (Python / C++)
+            - Implementation of Unit tests and CI/CD pipeline
+            - Documentation
       - company: NanoXplore
         website: https://nanoxplore.com/
         position: Software Scientific Engineer
@@ -59,20 +53,16 @@ cv:
         start_date: 2021-02
         end_date: 2023-04
         highlights:
-          - "Development of a software suite for FPGA (Linux, C++, Python):
-            \\begin{itemize}
-            \\item Team work (+30 people) with AGILE method
-            \\item Implementation of STA functions (Static Timing Analysis) and their API in Python
-            \\item Refactoring of FPGA Timing Constraints and implementation of theirs API and, GUI (QT)
-            \\item QA follow up on all implementations
-            \\end{itemize}"
-          - "Development of a timing simulation tool used within the company (Linux, Python):
-            \\begin{itemize}
-            \\item Identification of Hardware department needs and gathering knowledge from them
-            \\item Software Self-Implementation
-            \\item Use of scientific libraries (scipy, sklearn, multiprocessing, pandas) for multi-thread data production with quadratic regression and clustering. Data visualisation (seaborn, matplolib).
-            \\item Responsible for unifying python coding rules and practices within the company.
-            \\end{itemize}"
+          - Development of a software suite for FPGA (Linux, C++, Python)
+            - Team work (+30 people) with AGILE method
+            - Implementation of STA functions (Static Timing Analysis) and their API in Python
+            - Refactoring of FPGA Timing Constraints and implementation of theirs API and, GUI (QT)
+            - QA follow up on all implementations
+          - Development of a timing simulation tool used within the company (Linux, Python)
+            - Identification of Hardware department needs and gathering knowledge from them
+            - Software Self-Implementation
+            - Use of scientific libraries (scipy, sklearn, multiprocessing, pandas) for multi-thread data production with quadratic regression and clustering. Data visualisation (seaborn, matplolib).
+            - Responsible for unifying python coding rules and practices within the company.
       - company: Cala
         website: https://www.eatcala.com/
         position: Embedded Software Engineer
@@ -81,15 +71,13 @@ cv:
         start_date: 2020-01
         end_date: 2020-12
         highlights:
-          - "Embedded software development and deployment for [a cooking automaton](https://www.youtube.com/watch?v=jrqp0gy6KXE) (Linux, Python, C++, C):
-            \\begin{itemize}
-            \\item Designing and implementing an algorithm to parallelize the automaton's tasks regarding available resources (Python / C)
-            \\item Development  of the robot arm library (C++ wrap in Python)
-            \\item Communication with microprocessors (CAN bus, Python / C)
-            \\item Creation of a REST API with automaton's control endpoint (Python)
-            \\item Request to remote server (Python <-> graphQl)
-            \\item Tests, Repeatability, Documentation
-            \\end{itemize}"
+          - Embedded software development and deployment for [a cooking automaton](https://www.youtube.com/watch?v=jrqp0gy6KXE) (Linux, Python, C++, C)
+            - Designing and implementing an algorithm to parallelize the automaton's tasks regarding available resources (Python / C)
+            - Development  of the robot arm library (C++ wrap in Python)
+            - Communication with microprocessors (CAN bus, Python / C)
+            - Creation of a REST API with automaton's control endpoint (Python)
+            - Request to remote server (Python <-> graphQl)
+            - Tests, Repeatability, Documentation
       - company: SNCF Réseaux
         website: https://www.sncf-reseau.com
         position: Embedded Software Engineer
@@ -98,13 +86,11 @@ cv:
         start_date: 2016-09
         end_date: 2019-12
         highlights:
-          - "Development of new measurement chains for the [IRIS320 train](https://fr.wikipedia.org/wiki/TGV_IRIS_320):
-            \\begin{itemize}
-            \\item Identification of maintenance needs, writing specifications.
-            \\item Full development of measurement chains: hardware (sensors and acquisition cards choice, analog filters, signal conditionnement) and software (C#) (signal acquisition, numerical filters, image processing, algorithm, database insertion).
-            \\item Tests, production launch, maintenance, improvement and documentation of measurement chains.
-            \\item Data analysis (repeatability) and development of data consultation softwares.
-            \\end{itemize}"
+          - Development of new measurement chains for the [IRIS320 train](https://fr.wikipedia.org/wiki/TGV_IRIS_320)
+            - Identification of maintenance needs, writing specifications.
+            - Full development of measurement chains, both hardware (sensors and acquisition cards choice, analog filters, signal conditionnement) and software (C#) (signal acquisition, numerical filters, image processing, algorithm, database insertion).
+            - Tests, production launch, maintenance, improvement and documentation of measurement chains.
+            - Data analysis (repeatability) and development of data consultation softwares.
       - company: Valeo
         website: https://www.valeo.com
         position: Embedded Software Engineer Intern
@@ -113,12 +99,10 @@ cv:
         start_date: 2016-02
         end_date: 2016-08
         highlights:
-          - "Creation of a bench prototype to update laboratory test equipments:
-            \\begin{itemize}
-            \\item Identification of needs, technology benchmark
-            \\item Creation of a bench prototype (Raspberry Pi 3, PCB conception, scripting in python/C and HMI in C#)
-            \\item Writing of documentation and financial report
-            \\end{itemize}"
+          - Creation of a bench prototype to update laboratory test equipments
+            - Identification of needs, technology benchmark
+            - Creation of a bench prototype (Raspberry Pi 3, PCB conception, scripting in python/C and HMI in C#)
+            - Writing of documentation and financial report
     education:
       - institution: ENSEA
         website: https://www.ensea.fr/
@@ -128,14 +112,17 @@ cv:
         start_date: 2012-09
         end_date: 2016-08
         highlights:
-          - "Courses: Embedded systems, C++, Algorithmic and programming, Game theory and telecommunication"
+          - Embedded systems
+          - C++
+          - Algorithmic and programming
+          - Game theory and telecommunication"
       - institution: Lycée Jean-Perrin
         location: Marseille (13), France
         area: Mechanic
         start_date: 2010-09
         end_date: 2012-06
         highlights:
-          - "University-level preparation for the nation-wide competitive entrance exams to the French “Grandes Écoles”"
+          - University-level preparation for the nation-wide competitive entrance exams to the French “Grandes Écoles”
     Programming Skills:
       - label: Programming Languages
         details: Python, C++, C, C#
@@ -167,79 +154,13 @@ cv:
       - bullet: "2019 - today: Science career advocate in high schools (especially for girls)"
       - bullet: "2022 - today: Volunteer staff for a [craft beer festival](https://parisbeerfestival.fr/fr/)"
     Interests:
-      - Home automation, Sciences, Zythology, Travel, Video Games, Photography
+      - Home automation
+      - Sciences
+      - Zythology
+      - Travel
+      - Video Games
+      - Handiwork
 design:
-  theme: classic
-  font: Source Sans 3
-  font_size: 10pt
-  page_size: letterpaper
-  color: "#004f90"
-  disable_external_link_icons: false
-  disable_page_numbering: false
-  disable_last_updated_date: false
-  header_font_size: 30 pt
-  text_alignment: justified
-  separator_between_connections: ""
-  use_icons_for_connections: true
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.5 cm
-      education_degree_width: 1 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
-  show_timespan_in: []
-locale_catalog:
-  phone_number_format: national
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  last_updated_date_style: Last updated in TODAY
-  date_style: MONTH_ABBREVIATION YEAR
-  month: month
-  months: months
-  year: year
-  years: years
-  present: present
-  to: –
-  abbreviations_for_months:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - June
-    - July
-    - Aug
-    - Sept
-    - Oct
-    - Nov
-    - Dec
-  full_names_of_months:
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
-rendercv_settings:
-  bold_keywords: []
+  theme: engineeringclassic
+  colors:
+    headline: "#004f90"
