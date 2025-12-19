@@ -1,0 +1,208 @@
+cv:
+  name: Marion FABRE
+  location: Paris, France
+  email: m.fabre123@gmail.com
+  nationality: french
+  social_networks:
+    - network: LinkedIn
+      username: info-marion-fabre
+    - network: GitHub
+      username: Aimnor
+  sections:
+    expériences:
+      - company: Quandela
+        website: https://www.quandela.com/
+        position: Ingénieure Qualité logiciel
+        contract_type: CDI
+        location: Massy (91), FRANCE
+        start_date: 2024-09
+        end_date: 2025-06
+        highlights:
+          - Création du poste et du département Assurance Qualité (QA) au sein de Quandela
+            - Auto-formation aux pratiques d'Assurance Qualité (QA)
+            - Recueil des besoins internes en QA
+            - Benchmark des frameworks de test
+          - Développement et maintenance d'une platforme et d'un portfolio de tests pour le [Cloud de Quandela](https://cloud.quandela.com/) (projet externalisé)
+            - Développement d'une platforme de tests avec le framework Cucumber (Behave - Python), tests d'interface graphique et d'API REST (Selenium, Requests…)
+            - Création d'un portfolio de tests par la rédaction de scénarios de test avec la syntaxe Gherkin
+            - Déploiement de version de qualification de l'application à tester (Docker)
+            - Génération de rapports de test à l'aide de l'outil Allure Reporting
+            - Rédaction de rapports de test / gestion des tickets Jira
+            - Participation au processus de spécification
+            - Supervision du travail des sous-traitants
+      - company: Quandela
+        website: https://www.quandela.com/
+        position: Ingénieure développement logiciels scientifiques
+        contract_type: CDI
+        location: Massy (91), FRANCE
+        start_date: 2023-06
+        end_date: 2025-01
+        highlights:
+          - Développement de [Perceval](https://github.com/Quandela/Perceval), un framework Python de simulation de circuits photoniques quantiques, ainsi que de sa bibliothèque principale Exqalibur (C++)
+            - Méthode agile
+            - Conception de l'architecture du framework
+            - Identification des besoins des équipes Théorie et Ingénierie Applicative, et capitalisation des connaissances issues de ces équipes
+            - Implémentation de nouvelles fonctionnalités (Python / C++)
+            - Mise en place de tests unitaires et d'une chaîne CI/CD
+            - Rédaction de la documentation
+      - company: NanoXplore
+        website: https://nanoxplore.com/
+        position: Ingénieure développement logiciels scientifiques
+        contract_type: CDI
+        location: Sèvres (92), FRANCE
+        start_date: 2021-02
+        end_date: 2023-04
+        highlights:
+          - Développement d'[Impulse](https://nanoxplore.com/product/impulse/), une suite logicielle pour FPGA (Linux, C++, Python)
+            - Travail en équipe (+30 personnes) selon la méthode agile
+            - Implémentation de fonctions de STA (Static Timing Analysis) et de leurs API en Python
+            - Refactorisation des contraintes de timing FPGA et implémentation de leurs API ainsi que de l'interface graphique (Qt)
+            - Suivi Assurance Qualité (QA) de l'ensemble des développements
+          - Développement d'un outil de simulation temporelle utilisé en interne dans l'entreprise (Linux, Python)
+            - Identification des besoins du département Hardware et capitalisation des connaissances issues de ce département
+            - Conception et implémentation logicielle complète
+            - Utilisation de bibliothèques scientifiques (SciPy, scikit-learn, multiprocessing, pandas) pour la production de données multi-thread avec régression quadratique et clustering
+            - Visualisation des données (Seaborn, Matplotlib)
+          - Responsable de l'harmonisation des règles et bonnes pratiques de développement Python au sein de l'entreprise
+      - company: Cala
+        website: https://www.linkedin.com/company/calaeat
+        position: Ingénieure systèmes embarqués
+        contract_type: CDI
+        location: Courbevoie (92), FRANCE
+        start_date: 2020-01
+        end_date: 2020-12
+        highlights:
+          - Développement et déploiement de logiciels embarqués pour un [automate de cuisson](https://www.youtube.com/watch?v=jrqp0gy6KXE) (Linux, Python, C++, C)
+            - Conception et implémentation d'un algorithme de parallélisation des tâches de l'automate en fonction des ressources disponibles (Python / C)
+            - Développement de la bibliothèque de contrôle du bras robotisé (C++ avec API Python)
+            - Communication avec des microprocesseurs (bus CAN, Python / C)
+            - Création d'une API REST pour le contrôle de l'automate (Python)
+            - Communication avec un serveur distant (Python ↔ GraphQL)
+            - Tests, répétabilité et documentation
+      - company: SNCF Réseaux
+        website: https://www.sncf-reseau.com
+        position: Ingénieure systèmes embarqués
+        contract_type: CDI
+        location: Saint-Denis (93), FRANCE
+        start_date: 2016-09
+        end_date: 2019-12
+        highlights:
+          - Développement de nouvelles chaînes de mesure pour le [train IRIS320](https://fr.wikipedia.org/wiki/TGV_IRIS_320)
+            - Identification des besoins de maintenance et rédaction des spécifications
+            - Développement complet des chaînes de mesure, à la fois matériel (choix des capteurs et des cartes d'acquisition, filtres analogiques, conditionnement du signal) et logiciel (C#) ":" acquisition des signaux, filtres numériques, traitement d'image, algorithmes, insertion en base de données
+            - Tests, mise en production, maintenance, amélioration continue et documentation des chaînes de mesure
+            - Analyse des données (répétabilité) et développement de logiciels de consultation des données
+      - company: Valeo
+        website: https://www.valeo.com
+        position: Stagiaire Ingénieure systèmes embarqués
+        contract_type: Internship
+        location: Créteil (94), FRANCE
+        start_date: 2016-02
+        end_date: 2016-08
+        highlights:
+          - Création d'un prototype de banc d'essai pour la modernisation des équipements de test en laboratoire
+            - Identification des besoins et benchmark technologique
+            - Conception d'un prototype de banc d'essai (Raspberry Pi 3, conception de PCB, scripts en Python/C et interface homme-machine en C#)
+            - Rédaction de la documentation et d'un rapport financier
+    éducation:
+      - institution: ENSEA - Ecole d'ingénieur
+        website: https://www.ensea.fr/
+        location: Cergy (95), France
+        area: Electroniques et Informatique
+        start_date: 2012-09
+        end_date: 2016-08
+        highlights:
+          - Systèmes embarqués
+          - C++
+          - Algorithmique et programmation
+          - Théorie des jeux et télécommunications
+      - institution: Lycée Jean-Perrin - CPGE
+        website: https://www.site.ac-aix-marseille.fr/lyc-perrin/
+        location: Marseille (13), France
+        area: Mecanique
+        start_date: 2010-09
+        end_date: 2012-06
+        highlights:
+          - PTSI-PT*
+    Compétances de programmation:
+      - label: Languages de programmation
+        details: Python, C++, C, C#
+      - label: OS
+        details: Linux, Windows, MacOS
+      - label: Git
+        details: Github, Gitlab
+      - label: Tests
+        details: Tests unitaires, CI/CD Pipeline, Pytest, Unitest, Cucumber, Gherkin
+      - label: Concepts de programmation
+        details: Design pattern, Parallelisation, Image processing (OpenCV, MIL), OCR, ASR (Optical / Speech recognition)
+      - label: Cartes de développement
+        details: Raspberry Pi, Arduino ...
+    Logiciels:
+      - bullet: Pack Office
+      - bullet: IDE (VS/VSCode, PyCharm)
+      - bullet: CAO / impression 3D (Autodesk fusion, Bambu Studio)
+      - bullet: Calcul formel (Matlab/Simulink, WolframAlpha, …)
+      - bullet: Outils de dessin assisté par ordinateur (Photoshop, Gimp …)
+    Langages:
+      - label: Français
+        details: Langue maternelle
+      - label: English
+        details: Courant
+      - label: Spanish
+        details: Intermédiaire
+    Bénévolat:
+      - bullet: "Depuis 2019: Ambassadrice des carrières scientifiques dans les lycées (en particulier auprès des jeunes filles)"
+      - bullet: "Depuis 2022: Bénévole pour un [festival de bières artisanales](https://parisbeerfestival.fr/fr/)"
+    Intérêts:
+      - Domotique, Bricolage, Impression 3D, DIY, Voyages, Zythologie, Jeux Video, Jeux de plateaux
+
+design:
+  theme: engineeringclassic
+  colors:
+    headline: "#004f90"
+  links:
+    underline: true
+    show_external_link_icon: true
+  templates:
+    experience_entry:
+      main_column: |-
+        **POSITION**, [COMPANY](WEBSITE) - LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        DATE
+    education_entry:
+      main_column: |-
+        [**INSTITUTION**](WEBSITE), AREA
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: |-
+        **DEGREE**
+      date_and_location_column: |-
+        LOCATION
+        DATE
+locale:
+  language: french
+  month_abbreviations:
+    - Jan
+    - Fév
+    - Mars
+    - Avril
+    - Mai
+    - Juin
+    - Juil
+    - Août
+    - Sep
+    - Oct
+    - Nov
+    - Déc
+settings:
+  render_command:
+    typst_path: rendercv_output/temp/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/french/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/french/NAME_IN_SNAKE_CASE_CV.md
+    dont_generate_markdown: false
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true

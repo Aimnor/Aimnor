@@ -53,7 +53,7 @@ cv:
         start_date: 2021-02
         end_date: 2023-04
         highlights:
-          - Development of a software suite for FPGA (Linux, C++, Python)
+          - Development of [Impulse](https://nanoxplore.com/product/impulse/), a software suite for FPGA (Linux, C++, Python)
             - Team work (+30 people) with AGILE method
             - Implementation of STA functions (Static Timing Analysis) and their API in Python
             - Refactoring of FPGA Timing Constraints and implementation of theirs API and, GUI (QT)
@@ -62,7 +62,7 @@ cv:
             - Identification of Hardware department needs and gathering knowledge from them
             - Software Self-Implementation
             - Use of scientific libraries (scipy, sklearn, multiprocessing, pandas) for multi-thread data production with quadratic regression and clustering. Data visualisation (seaborn, matplolib).
-            - Responsible for unifying python coding rules and practices within the company.
+          - Responsible for unifying python coding rules and practices within the company.
       - company: Cala
         website: https://www.linkedin.com/company/calaeat
         position: Embedded Software Engineer
@@ -115,7 +115,7 @@ cv:
           - Embedded systems
           - C++
           - Algorithmic and programming
-          - Game theory and telecommunication"
+          - Game theory and telecommunication
       - institution: Lycée Jean-Perrin
         website: https://www.site.ac-aix-marseille.fr/lyc-perrin/
         location: Marseille (13), France
@@ -142,7 +142,6 @@ cv:
       - bullet: IDE (VS/VSCode, PyCharm)
       - bullet: CAO / 3D printing (Autodesk fusion, Bambu Studio)
       - bullet: Formal calculus (Matlab/Simulink, WolframAlpha, …)
-      - bullet: PCB routing (OrCAD, Eagle, Pspice)
       - bullet: Computer aided drawing tools (Photoshop, Gimp …)
     Languages:
       - label: French
@@ -152,10 +151,10 @@ cv:
       - label: Spanish
         details: intermediate
     Community Involvement:
-      - bullet: "2019 - today: Science career advocate in high schools (especially for girls)"
-      - bullet: "2022 - today: Volunteer staff for a [craft beer festival](https://parisbeerfestival.fr/fr/)"
+      - bullet: "Since 2019: Science career advocate in high schools (especially for girls)"
+      - bullet: "Since 2022: Volunteer staff for a [craft beer festival](https://parisbeerfestival.fr/fr/)"
     Interests:
-      - Home automation, Handiwork, 3D printing, Crafting, Travel, Zythology, Video Games
+      - Home automation, Handiwork, 3D printing, DIY, Travel, Zythology, Video Games, Board Games
 
 design:
   theme: engineeringclassic
@@ -184,3 +183,13 @@ design:
         DATE
 locale:
   language: english
+settings:
+  render_command:
+    typst_path: rendercv_output/temp/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/english/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/english/NAME_IN_SNAKE_CASE_CV.md
+    dont_generate_markdown: false
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true

@@ -15,7 +15,8 @@ pip install -r requirements.txt
 
 ```bash
 python -m venv venv
-rendercv render "Marion_FABRE_CV.yaml" --dont-generate-html --dont-generate-png --dont-generate-typst
+rendercv render "Marion_FABRE_CV.yaml"
+rendercv render "Marion_FABRE_CV_french.yaml"
 ```
 
 

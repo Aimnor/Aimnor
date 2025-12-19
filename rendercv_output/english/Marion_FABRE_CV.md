@@ -64,7 +64,7 @@ June 2023 – Jan 2025
 
 Feb 2021 – Apr 2023
 
-- Development of a software suite for FPGA (Linux, C++, Python)
+- Development of [Impulse](https://nanoxplore.com/product/impulse/), a software suite for FPGA (Linux, C++, Python)
 
   - Team work (+30 people) with AGILE method
 
@@ -82,7 +82,7 @@ Feb 2021 – Apr 2023
 
   - Use of scientific libraries (scipy, sklearn, multiprocessing, pandas) for multi-thread data production with quadratic regression and clustering. Data visualisation (seaborn, matplolib).
 
-  - Responsible for unifying python coding rules and practices within the company.
+- Responsible for unifying python coding rules and practices within the company.
 
 
 
@@ -152,7 +152,7 @@ Sept 2012 – Aug 2016
 
 - Algorithmic and programming
 
-- Game theory and telecommunication\"
+- Game theory and telecommunication
 
 
 
@@ -192,8 +192,6 @@ Sept 2010 – June 2012
 
 - Formal calculus (Matlab\/Simulink, WolframAlpha, …)
 
-- PCB routing (OrCAD, Eagle, Pspice)
-
 - Computer aided drawing tools (Photoshop, Gimp …)
 
 # Languages
@@ -206,10 +204,10 @@ Sept 2010 – June 2012
 
 # Community Involvement
 
-- 2019 - today: Science career advocate in high schools (especially for girls)
+- Since 2019: Science career advocate in high schools (especially for girls)
 
-- 2022 - today: Volunteer staff for a [craft beer festival](https://parisbeerfestival.fr/fr/)
+- Since 2022: Volunteer staff for a [craft beer festival](https://parisbeerfestival.fr/fr/)
 
 # Interests
 
-Home automation, Handiwork, 3D printing, Crafting, Travel, Zythology, Video Games
+Home automation, Handiwork, 3D printing, DIY, Travel, Zythology, Video Games, Board Games
