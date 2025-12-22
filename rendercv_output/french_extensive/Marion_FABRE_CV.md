@@ -12,7 +12,13 @@
 
 Sep 2024 – Juin 2025
 
-- Création du poste et du département Assurance Qualité (QA) au sein de Quandela
+**Contexte :**
+
+#summary[Mise en place d'une platforme de test pour le cloud de Quandela dans le cadre de la création du département Assurance Qualité.]
+
+**Réalisation(s) :**
+
+- Création du poste et du département Assurance Qualité (QA)
 
   - Auto-formation aux pratiques d'Assurance Qualité (QA)
 
@@ -36,11 +42,19 @@ Sep 2024 – Juin 2025
 
   - Supervision du travail des sous-traitants
 
+**Environnement technique :** Ubuntu, Python, Behave (Cucumber), Syntaxe Gherkin
+
 
 
 ## **Ingénieure développement logiciels scientifiques**, [Quandela](https:\/\/www.quandela.com\/) - Massy (91), FRANCE
 
 Juin 2023 – Jan 2025
+
+**Contexte :**
+
+#summary[Développement du framework Perceval, permettant le pilotage et la simulation de circuits photoniques quantiques.]
+
+**Réalisation(s) :**
 
 - Développement de [Perceval](https://github.com/Quandela/Perceval), un framework Python de simulation de circuits photoniques quantiques, ainsi que de sa bibliothèque principale Exqalibur (C++)
 
@@ -56,11 +70,19 @@ Juin 2023 – Jan 2025
 
   - Rédaction de la documentation
 
+**Environnement technique :** Ubuntu, Python, C++, Boost, Mathématiques (calcul matriciels)
+
 
 
 ## **Ingénieure développement logiciels scientifiques**, [NanoXplore](https:\/\/nanoxplore.com\/) - Sèvres (92), FRANCE
 
 Fév 2021 – Avril 2023
+
+**Contexte :**
+
+#summary[Développement d'un suite logicielle pour FPGA et d'outils de simulation associé.]
+
+**Réalisation(s) :**
 
 - Développement d'[Impulse](https://nanoxplore.com/product/impulse/), une suite logicielle pour FPGA (Linux, C++, Python)
 
@@ -84,11 +106,19 @@ Fév 2021 – Avril 2023
 
 - Responsable de l'harmonisation des règles et bonnes pratiques de développement Python au sein de l'entreprise
 
+**Environnement technique :** CentOS, Python, SciPy, C++, Mathématiques
+
 
 
 ## **Ingénieure systèmes embarqués**, [Cala](https:\/\/www.linkedin.com\/company\/calaeat) - Courbevoie (92), FRANCE
 
 Jan 2020 – Déc 2020
+
+**Contexte :**
+
+#summary[Développement d'un logiciel permettant le pilotage d'un automate de cuisson.]
+
+**Réalisation(s) :**
 
 - Développement et déploiement de logiciels embarqués pour un [automate de cuisson](https://www.youtube.com/watch?v=jrqp0gy6KXE) (Linux, Python, C++, C)
 
@@ -104,11 +134,19 @@ Jan 2020 – Déc 2020
 
   - Tests, répétabilité et documentation
 
+**Environnement technique :** Windows, Python, C++, C, parallélisation
+
 
 
 ## **Ingénieure systèmes embarqués**, [SNCF Réseaux](https:\/\/www.sncf-reseau.com) - Saint-Denis (93), FRANCE
 
 Sep 2016 – Déc 2019
+
+**Contexte :**
+
+#summary[Développement et mise en place de chaînes de mesures pour IRIS320, un train assurant la surveillance du réseaux TGV.]
+
+**Réalisation(s) :**
 
 - Développement de nouvelles chaînes de mesure pour le [train IRIS320](https://fr.wikipedia.org/wiki/TGV_IRIS_320)
 
@@ -120,19 +158,29 @@ Sep 2016 – Déc 2019
 
   - Analyse des données (répétabilité) et développement de logiciels de consultation des données
 
+**Environnement technique :** Windows, C\#, C, traitement du signal
+
 
 
 ## **Stagiaire Ingénieure systèmes embarqués**, [Valeo](https:\/\/www.valeo.com) - Créteil (94), FRANCE
 
 Fév 2016 – Août 2016
 
-- Création d'un prototype de banc d'essai pour la modernisation des équipements de test en laboratoire
+**Contexte :**
+
+#summary[Prototypage de banc d'essai pour la modernisation des équipements de tests en laboratoire au sein du département R&D.]
+
+**Réalisation(s) :**
+
+- Création d'un prototype de banc d'essai
 
   - Identification des besoins et benchmark technologique
 
   - Conception d'un prototype de banc d'essai (Raspberry Pi 3, conception de PCB, scripts en Python\/C et interface homme-machine en C\#)
 
   - Rédaction de la documentation et d'un rapport financier
+
+**Environnement technique :** Linux, C\#, Python, C, PCB
 
 
 

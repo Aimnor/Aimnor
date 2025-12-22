@@ -22,9 +22,7 @@ Sept 2024 – June 2025
 
 - Development and maintenance of a test driver and test portfolio for [Quandela's Cloud Solution](https://cloud.quandela.com/) (outsourced project)
 
-  - Developing a test driver with Cucumber framework (Behave
-
-  - Python), GUI and REST API testing (Selenium, Requests...)
+  - Developing a test driver with Cucumber framework (Behave), GUI and REST API testing (Selenium, Requests...)
 
   - Creating a test portfolio by writing test scenarios using Gherkin syntax
 
@@ -32,7 +30,7 @@ Sept 2024 – June 2025
 
   - Generating test reports using Allure Reporting Tool
 
-  - Writing test reports \/ Managing Jira tickets
+  - Writing test reports, managing Jira tickets
 
   - Involvement in specification process
 
@@ -183,8 +181,6 @@ Sept 2010 – June 2012
 - Development board: Raspberry Pi, Arduino ...
 
 # Software tools
-
-- Office pack
 
 - IDE (VS\/VSCode, PyCharm)
 

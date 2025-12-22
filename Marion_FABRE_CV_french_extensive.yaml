@@ -17,8 +17,9 @@ cv:
         location: Massy (91), FRANCE
         start_date: 2024-09
         end_date: 2025-06
+        summary: Mise en place d'une platforme de test pour le cloud de Quandela dans le cadre de la création du département Assurance Qualité.
         highlights:
-          - Création du poste et du département Assurance Qualité (QA) au sein de Quandela
+          - Création du poste et du département Assurance Qualité (QA)
             - Auto-formation aux pratiques d'Assurance Qualité (QA)
             - Recueil des besoins internes en QA
             - Benchmark des frameworks de test
@@ -30,6 +31,7 @@ cv:
             - Rédaction de rapports de test, gestion des tickets Jira
             - Participation au processus de spécification
             - Supervision du travail des sous-traitants
+        tech_stack: Ubuntu, Python, Behave (Cucumber), Syntaxe Gherkin
       - company: Quandela
         website: https://www.quandela.com/
         position: Ingénieure développement logiciels scientifiques
@@ -37,6 +39,7 @@ cv:
         location: Massy (91), FRANCE
         start_date: 2023-06
         end_date: 2025-01
+        summary: Développement du framework Perceval, permettant le pilotage et la simulation de circuits photoniques quantiques.
         highlights:
           - Développement de [Perceval](https://github.com/Quandela/Perceval), un framework Python de simulation de circuits photoniques quantiques, ainsi que de sa bibliothèque principale Exqalibur (C++)
             - Méthode agile
@@ -45,6 +48,7 @@ cv:
             - Implémentation de nouvelles fonctionnalités (Python / C++)
             - Mise en place de tests unitaires et d'une chaîne CI/CD
             - Rédaction de la documentation
+        tech_stack: Ubuntu, Python, C++, Boost, Mathématiques (calcul matriciels)
       - company: NanoXplore
         website: https://nanoxplore.com/
         position: Ingénieure développement logiciels scientifiques
@@ -52,6 +56,7 @@ cv:
         location: Sèvres (92), FRANCE
         start_date: 2021-02
         end_date: 2023-04
+        summary: Développement d'un suite logicielle pour FPGA et d'outils de simulation associé.
         highlights:
           - Développement d'[Impulse](https://nanoxplore.com/product/impulse/), une suite logicielle pour FPGA (Linux, C++, Python)
             - Travail en équipe (+30 personnes) selon la méthode agile
@@ -64,6 +69,7 @@ cv:
             - Utilisation de bibliothèques scientifiques (SciPy, scikit-learn, multiprocessing, pandas) pour la production de données multi-thread avec régression quadratique et clustering
             - Visualisation des données (Seaborn, Matplotlib)
           - Responsable de l'harmonisation des règles et bonnes pratiques de développement Python au sein de l'entreprise
+        tech_stack: CentOS, Python, SciPy, C++, Mathématiques
       - company: Cala
         website: https://www.linkedin.com/company/calaeat
         position: Ingénieure systèmes embarqués
@@ -71,6 +77,7 @@ cv:
         location: Courbevoie (92), FRANCE
         start_date: 2020-01
         end_date: 2020-12
+        summary: Développement d'un logiciel permettant le pilotage d'un automate de cuisson.
         highlights:
           - Développement et déploiement de logiciels embarqués pour un [automate de cuisson](https://www.youtube.com/watch?v=jrqp0gy6KXE) (Linux, Python, C++, C)
             - Conception et implémentation d'un algorithme de parallélisation des tâches de l'automate en fonction des ressources disponibles (Python / C)
@@ -79,6 +86,7 @@ cv:
             - Création d'une API REST pour le contrôle de l'automate (Python)
             - Communication avec un serveur distant (Python ↔ GraphQL)
             - Tests, répétabilité et documentation
+        tech_stack: Windows, Python, C++, C, parallélisation
       - company: SNCF Réseaux
         website: https://www.sncf-reseau.com
         position: Ingénieure systèmes embarqués
@@ -86,12 +94,14 @@ cv:
         location: Saint-Denis (93), FRANCE
         start_date: 2016-09
         end_date: 2019-12
+        summary: Développement et mise en place de chaînes de mesures pour IRIS320, un train assurant la surveillance du réseaux TGV.
         highlights:
           - Développement de nouvelles chaînes de mesure pour le [train IRIS320](https://fr.wikipedia.org/wiki/TGV_IRIS_320)
             - Identification des besoins de maintenance et rédaction des spécifications
             - Développement complet des chaînes de mesure, à la fois matériel (choix des capteurs et des cartes d'acquisition, filtres analogiques, conditionnement du signal) et logiciel (C#) ":" acquisition des signaux, filtres numériques, traitement d'image, algorithmes, insertion en base de données
             - Tests, mise en production, maintenance, amélioration continue et documentation des chaînes de mesure
             - Analyse des données (répétabilité) et développement de logiciels de consultation des données
+        tech_stack: Windows, C#, C, traitement du signal
       - company: Valeo
         website: https://www.valeo.com
         position: Stagiaire Ingénieure systèmes embarqués
@@ -99,11 +109,13 @@ cv:
         location: Créteil (94), FRANCE
         start_date: 2016-02
         end_date: 2016-08
+        summary: Prototypage de banc d'essai pour la modernisation des équipements de tests en laboratoire au sein du département R&D.
         highlights:
-          - Création d'un prototype de banc d'essai pour la modernisation des équipements de test en laboratoire
+          - Création d'un prototype de banc d'essai
             - Identification des besoins et benchmark technologique
             - Conception d'un prototype de banc d'essai (Raspberry Pi 3, conception de PCB, scripts en Python/C et interface homme-machine en C#)
             - Rédaction de la documentation et d'un rapport financier
+        tech_stack: Linux, C#, Python, C, PCB
     éducation:
       - institution: ENSEA - Ecole d'ingénieur
         website: https://www.ensea.fr/
@@ -166,8 +178,12 @@ design:
     experience_entry:
       main_column: |-
         **POSITION**, [COMPANY](WEBSITE) - LOCATION
+        **Contexte :**
         SUMMARY
+        **Réalisation(s) :**
         HIGHLIGHTS
+        **Environnement technique :** TECH_STACK
+
       date_and_location_column: |-
         DATE
     education_entry:
@@ -198,8 +214,8 @@ locale:
 settings:
   render_command:
     typst_path: rendercv_output/temp/NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output/french/NAME_IN_SNAKE_CASE_CV.pdf
-    markdown_path: rendercv_output/french/NAME_IN_SNAKE_CASE_CV.md
+    pdf_path: rendercv_output/french_extensive/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/french_extensive/NAME_IN_SNAKE_CASE_CV.md
     dont_generate_markdown: false
     dont_generate_html: true
     dont_generate_typst: false

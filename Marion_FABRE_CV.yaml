@@ -23,11 +23,11 @@ cv:
             - Gathering internal QA needs
             - Benchmarking testing frameworks
           - Development and maintenance of a test driver and test portfolio for [Quandela's Cloud Solution](https://cloud.quandela.com/) (outsourced project)
-            - Developing a test driver with Cucumber framework (Behave - Python), GUI and REST API testing (Selenium, Requests...)
+            - Developing a test driver with Cucumber framework (Behave), GUI and REST API testing (Selenium, Requests...)
             - Creating a test portfolio by writing test scenarios using Gherkin syntax
             - Deployment of release candidate app version to test (docker)
             - Generating test reports using Allure Reporting Tool
-            - Writing test reports / Managing Jira tickets
+            - Writing test reports, managing Jira tickets
             - Involvement in specification process
             - Overseeing subcontractors work
       - company: Quandela
@@ -138,7 +138,6 @@ cv:
       - label: Development board
         details: Raspberry Pi, Arduino ...
     Software tools:
-      - bullet: Office pack
       - bullet: IDE (VS/VSCode, PyCharm)
       - bullet: CAO / 3D printing (Autodesk fusion, Bambu Studio)
       - bullet: Formal calculus (Matlab/Simulink, WolframAlpha, …)
